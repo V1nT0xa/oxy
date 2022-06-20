@@ -1,0 +1,50 @@
+@media (min-width: 1240px)  {
+.ops-error {
+    height: 10em;
+    position: relative ;	
+}
+.ops-error h1 {
+    margin: 0;
+    position: absolute;
+	 background: #363a43;
+	color: #fff;
+	padding: 1px 18px;
+	font-size:28px;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+}
+.ops-error h2 {
+    margin: 0;
+    position: absolute;
+	color: #363a43;
+	padding: 1px 18px;
+	font-size:28px;
+    top: 80%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+}
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+.ops-error {
+    height: 10em;
+    position: relative ;	
+}
+.ops-error h1 {
+    margin: 0;
+	background: #363a43;
+	color: #fff;
+	padding: 1px 18px;
+	font-size:26px;
+	margin-top:50px;
+	text-align:center;
+}
+.ops-error h2 {
+    margin: 0;
+	color: #363a43;
+	padding: 1px 18px;
+	font-size:24px;
+}	
+}

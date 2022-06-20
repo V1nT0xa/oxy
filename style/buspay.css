@@ -1,0 +1,45 @@
+@media (min-width: 1240px)  {
+.buspay-text{
+	width:70%;
+	font-style: normal;
+	font-weight: bold;
+	font-family: "Montserrat", sans-serif;
+	font-size:16px;
+	padding:15px 70px;
+}
+.buspay-text h1{
+	font-size:22px;
+	
+}
+.buspay-text h2{
+	font-size:14px;
+	padding:15px;
+}
+.buspay-text p{
+	padding-top:8px;
+}
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+.buspay-text{
+	width:90%;
+	margin-top:15px;
+	margin-left:5%;
+	font-style: normal;
+	font-weight: bold;
+	font-family: "Montserrat", sans-serif;
+	font-size:16px;
+
+}
+.buspay-text h1{
+	text-align:center;
+	font-size:20px;
+	
+}
+.buspay-text h2{
+	font-size:14px;
+	padding:15px;
+}
+.buspay-text p{
+	padding-top:8px;
+}		
+}	
